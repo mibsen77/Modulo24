@@ -1,0 +1,32 @@
+form label,input {
+    color: $font-color-primary;
+    font-size: $font-size-default;
+    font-family: $font-default;
+    margin-left: 10px;
+    
+}
+.nome_form{
+        
+        font-size: 2rem;
+        color:$font-color-primary;
+        text-align: left;
+        width: 100%;
+        float: left;
+}
+.email_form{
+       
+        font-size: 2rem;
+        color:$font-color-primary;
+        text-align:left;
+        width: 100%;
+        float: left;
+}
+.telefone_form{
+   
+    font-size: 2rem;
+    color:$font-color-primary;
+    text-align: left;
+    width: 100%;
+    float: left;
+
+}

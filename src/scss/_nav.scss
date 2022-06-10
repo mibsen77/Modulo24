@@ -1,0 +1,22 @@
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 5px;
+    align-self: flex-end;
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    margin-top: -50px;
+    &__item {
+        color: $font-color-primary;
+        font-size: $font-size-nav;
+        text-decoration: none;
+        position: relative;
+        &:hover {
+            color: $color-secondary;
+            animation: toTop;
+            animation-duration: 1s;
+        }
+    }
+}

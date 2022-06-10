@@ -1,0 +1,127 @@
+$color-primary: #19843d;
+$color-secondary: #f58220;
+$font-color-primary: #19843d;
+$font-color-secondary: #454545;
+$font-default: Arial, Helvetica, sans-serif;
+$font-logo: 'Russo One', sans-serif;
+$font-size-default: 1.6rem;
+$font-size-default-small:0.5rem;
+$font-size-nav: 1.8rem;
+
+@import 'nav';
+@import 'header';
+@import 'catalogo';
+@import 'servicos';
+@import 'animations';
+@import 'form';
+@import 'sobre';
+
+@import 'grid';
+
+@import 'responsive';
+
+@viewport{
+    width: device;
+    zoom: 1;
+}
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: $font-default;
+}
+body{
+    background-color: $color-primary;
+    font-family: $font-default;
+    margin: 0;
+}
+.logo {
+        margin-left: 5px;
+        color: $font-color-primary;
+        font-family: $font-logo ;
+        font-weight: 700;
+        text-shadow: 1px 2px 8px #8bf399;
+        margin-bottom: -10px;
+        h2{
+                      
+            font-size: 2rem;
+            margin-top: 4rem;
+            
+        }
+        h3{
+           
+            font-size: 1rem;
+            margin-top: -2rem;
+            
+        }
+        
+}
+
+
+h1 {
+    color: $font-color-primary;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+article {
+    align-self: center;
+    max-width: 100%;
+    h1 {
+        color: $color-secondary;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+}
+
+
+#root,
+header,
+section,
+footer {
+    display: block;
+    float: left;
+    width: 100%;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+section {
+    padding: 4rem 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw;
+    background-color:white;
+    @media (max-width:768px)
+    {
+        max-width: 99%;
+    }
+    @media (min-width:px)
+    {
+       
+    }
+    p{
+        font-family: $font-default;
+        font-size: $font-size-default;
+        color: $color-primary;
+        line-height: 1.2;
+        
+    }
+    h1{
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+        color: $color-primary;
+    }
+}
